@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E7FF2A179FF45400244E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF29179FF45400244E13 /* UIKit.framework */; };
+		74E7FF2C179FF45400244E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2B179FF45400244E13 /* Foundation.framework */; };
+		74E7FF2E179FF45400244E13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2D179FF45400244E13 /* CoreGraphics.framework */; };
+		74E7FF34179FF45400244E13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF32179FF45400244E13 /* InfoPlist.strings */; };
+		74E7FF36179FF45400244E13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF35179FF45400244E13 /* main.m */; };
+		74E7FF3A179FF45400244E13 /* VGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF39179FF45400244E13 /* VGSAppDelegate.m */; };
+		74E7FF3C179FF45400244E13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3B179FF45400244E13 /* Default.png */; };
+		74E7FF3E179FF45400244E13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3D179FF45400244E13 /* Default@2x.png */; };
+		74E7FF40179FF45400244E13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3F179FF45400244E13 /* Default-568h@2x.png */; };
+		74E7FF48179FF45400244E13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF47179FF45400244E13 /* SenTestingKit.framework */; };
+		74E7FF49179FF45400244E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF29179FF45400244E13 /* UIKit.framework */; };
+		74E7FF4A179FF45400244E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2B179FF45400244E13 /* Foundation.framework */; };
+		74E7FF52179FF45400244E13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF50179FF45400244E13 /* InfoPlist.strings */; };
+		74E7FF55179FF45400244E13 /* Touhou_VGSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF54179FF45400244E13 /* Touhou_VGSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E7FF4B179FF45400244E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E7FF1E179FF45400244E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E7FF25179FF45400244E13;
+			remoteInfo = "Touhou VGS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E7FF26179FF45400244E13 /* Touhou VGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touhou VGS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E7FF29179FF45400244E13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74E7FF2B179FF45400244E13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74E7FF2D179FF45400244E13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74E7FF31179FF45400244E13 /* Touhou VGS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touhou VGS-Info.plist"; sourceTree = "<group>"; };
+		74E7FF33179FF45400244E13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E7FF35179FF45400244E13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74E7FF37179FF45400244E13 /* Touhou VGS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touhou VGS-Prefix.pch"; sourceTree = "<group>"; };
+		74E7FF38179FF45400244E13 /* VGSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGSAppDelegate.h; sourceTree = "<group>"; };
+		74E7FF39179FF45400244E13 /* VGSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGSAppDelegate.m; sourceTree = "<group>"; };
+		74E7FF3B179FF45400244E13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74E7FF3D179FF45400244E13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		74E7FF3F179FF45400244E13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touhou VGSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E7FF47179FF45400244E13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		74E7FF4F179FF45400244E13 /* Touhou VGSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touhou VGSTests-Info.plist"; sourceTree = "<group>"; };
+		74E7FF51179FF45400244E13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E7FF53179FF45400244E13 /* Touhou_VGSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touhou_VGSTests.h; sourceTree = "<group>"; };
+		74E7FF54179FF45400244E13 /* Touhou_VGSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touhou_VGSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E7FF23179FF45400244E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF2A179FF45400244E13 /* UIKit.framework in Frameworks */,
+				74E7FF2C179FF45400244E13 /* Foundation.framework in Frameworks */,
+				74E7FF2E179FF45400244E13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E7FF42179FF45400244E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF48179FF45400244E13 /* SenTestingKit.framework in Frameworks */,
+				74E7FF49179FF45400244E13 /* UIKit.framework in Frameworks */,
+				74E7FF4A179FF45400244E13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E7FF1D179FF45400244E13 = {
+			isa = PBXGroup;
+			children = (
+				74E7FF2F179FF45400244E13 /* Touhou VGS */,
+				74E7FF4D179FF45400244E13 /* Touhou VGSTests */,
+				74E7FF28179FF45400244E13 /* Frameworks */,
+				74E7FF27179FF45400244E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E7FF27179FF45400244E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF26179FF45400244E13 /* Touhou VGS.app */,
+				74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E7FF28179FF45400244E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF29179FF45400244E13 /* UIKit.framework */,
+				74E7FF2B179FF45400244E13 /* Foundation.framework */,
+				74E7FF2D179FF45400244E13 /* CoreGraphics.framework */,
+				74E7FF47179FF45400244E13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E7FF2F179FF45400244E13 /* Touhou VGS */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF38179FF45400244E13 /* VGSAppDelegate.h */,
+				74E7FF39179FF45400244E13 /* VGSAppDelegate.m */,
+				74E7FF30179FF45400244E13 /* Supporting Files */,
+			);
+			path = "Touhou VGS";
+			sourceTree = "<group>";
+		};
+		74E7FF30179FF45400244E13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF31179FF45400244E13 /* Touhou VGS-Info.plist */,
+				74E7FF32179FF45400244E13 /* InfoPlist.strings */,
+				74E7FF35179FF45400244E13 /* main.m */,
+				74E7FF37179FF45400244E13 /* Touhou VGS-Prefix.pch */,
+				74E7FF3B179FF45400244E13 /* Default.png */,
+				74E7FF3D179FF45400244E13 /* Default@2x.png */,
+				74E7FF3F179FF45400244E13 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74E7FF4D179FF45400244E13 /* Touhou VGSTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF53179FF45400244E13 /* Touhou_VGSTests.h */,
+				74E7FF54179FF45400244E13 /* Touhou_VGSTests.m */,
+				74E7FF4E179FF45400244E13 /* Supporting Files */,
+			);
+			path = "Touhou VGSTests";
+			sourceTree = "<group>";
+		};
+		74E7FF4E179FF45400244E13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E7FF4F179FF45400244E13 /* Touhou VGSTests-Info.plist */,
+				74E7FF50179FF45400244E13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E7FF25179FF45400244E13 /* Touhou VGS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E7FF58179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGS" */;
+			buildPhases = (
+				74E7FF22179FF45400244E13 /* Sources */,
+				74E7FF23179FF45400244E13 /* Frameworks */,
+				74E7FF24179FF45400244E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touhou VGS";
+			productName = "Touhou VGS";
+			productReference = 74E7FF26179FF45400244E13 /* Touhou VGS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E7FF45179FF45400244E13 /* Touhou VGSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E7FF5B179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGSTests" */;
+			buildPhases = (
+				74E7FF41179FF45400244E13 /* Sources */,
+				74E7FF42179FF45400244E13 /* Frameworks */,
+				74E7FF43179FF45400244E13 /* Resources */,
+				74E7FF44179FF45400244E13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E7FF4C179FF45400244E13 /* PBXTargetDependency */,
+			);
+			name = "Touhou VGSTests";
+			productName = "Touhou VGSTests";
+			productReference = 74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E7FF1E179FF45400244E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VGS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SUZUKI PLAN";
+			};
+			buildConfigurationList = 74E7FF21179FF45400244E13 /* Build configuration list for PBXProject "Touhou VGS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74E7FF1D179FF45400244E13;
+			productRefGroup = 74E7FF27179FF45400244E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E7FF25179FF45400244E13 /* Touhou VGS */,
+				74E7FF45179FF45400244E13 /* Touhou VGSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E7FF24179FF45400244E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF34179FF45400244E13 /* InfoPlist.strings in Resources */,
+				74E7FF3C179FF45400244E13 /* Default.png in Resources */,
+				74E7FF3E179FF45400244E13 /* Default@2x.png in Resources */,
+				74E7FF40179FF45400244E13 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E7FF43179FF45400244E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF52179FF45400244E13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74E7FF44179FF45400244E13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E7FF22179FF45400244E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF36179FF45400244E13 /* main.m in Sources */,
+				74E7FF3A179FF45400244E13 /* VGSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E7FF41179FF45400244E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7FF55179FF45400244E13 /* Touhou_VGSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E7FF4C179FF45400244E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E7FF25179FF45400244E13 /* Touhou VGS */;
+			targetProxy = 74E7FF4B179FF45400244E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E7FF32179FF45400244E13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E7FF33179FF45400244E13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74E7FF50179FF45400244E13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E7FF51179FF45400244E13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E7FF56179FF45400244E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74E7FF57179FF45400244E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E7FF59179FF45400244E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
+				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74E7FF5A179FF45400244E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
+				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74E7FF5C179FF45400244E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Touhou VGS.app/Touhou VGS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
+				INFOPLIST_FILE = "Touhou VGSTests/Touhou VGSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		74E7FF5D179FF45400244E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Touhou VGS.app/Touhou VGS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
+				INFOPLIST_FILE = "Touhou VGSTests/Touhou VGSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E7FF21179FF45400244E13 /* Build configuration list for PBXProject "Touhou VGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E7FF56179FF45400244E13 /* Debug */,
+				74E7FF57179FF45400244E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E7FF58179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E7FF59179FF45400244E13 /* Debug */,
+				74E7FF5A179FF45400244E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74E7FF5B179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E7FF5C179FF45400244E13 /* Debug */,
+				74E7FF5D179FF45400244E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E7FF1E179FF45400244E13 /* Project object */;
+}
