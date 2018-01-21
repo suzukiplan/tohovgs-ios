@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741D55DD17C0C6C600F22421 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741D55DC17C0C6C600F22421 /* AVFoundation.framework */; };
+		743E40EA17E5417400632C10 /* icon_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 743E40E917E5417400632C10 /* icon_60.png */; };
+		743E40EC17E5418400632C10 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 743E40EB17E5418400632C10 /* icon_120.png */; };
+		745255CA1C79DF4E00007F0F /* vgs2tone.c in Sources */ = {isa = PBXBuildFile; fileRef = 745255C51C79DF4E00007F0F /* vgs2tone.c */; };
+		745255CB1C79DF4E00007F0F /* vgsdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 745255C71C79DF4E00007F0F /* vgsdec.c */; };
+		745E24FF18371F4600B713EF /* VGSBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E24FE18371F4600B713EF /* VGSBarView.m */; };
+		749D250617C231C100DE1425 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749D250517C231C100DE1425 /* AudioToolbox.framework */; };
+		74E0C2CE17A48CB50008EED2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E0C2CD17A48CB50008EED2 /* Icon.png */; };
 		74E7FF2A179FF45400244E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF29179FF45400244E13 /* UIKit.framework */; };
 		74E7FF2C179FF45400244E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2B179FF45400244E13 /* Foundation.framework */; };
 		74E7FF2E179FF45400244E13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2D179FF45400244E13 /* CoreGraphics.framework */; };
@@ -16,24 +24,38 @@
 		74E7FF3C179FF45400244E13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3B179FF45400244E13 /* Default.png */; };
 		74E7FF3E179FF45400244E13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3D179FF45400244E13 /* Default@2x.png */; };
 		74E7FF40179FF45400244E13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF3F179FF45400244E13 /* Default-568h@2x.png */; };
-		74E7FF48179FF45400244E13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF47179FF45400244E13 /* SenTestingKit.framework */; };
-		74E7FF49179FF45400244E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF29179FF45400244E13 /* UIKit.framework */; };
-		74E7FF4A179FF45400244E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF2B179FF45400244E13 /* Foundation.framework */; };
-		74E7FF52179FF45400244E13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF50179FF45400244E13 /* InfoPlist.strings */; };
-		74E7FF55179FF45400244E13 /* Touhou_VGSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF54179FF45400244E13 /* Touhou_VGSTests.m */; };
+		74E7FF5F179FF47400244E13 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF5E179FF47400244E13 /* icon_57.png */; };
+		74E7FF61179FF4F500244E13 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF60179FF4F500244E13 /* icon_114.png */; };
+		74E7FF63179FF56300244E13 /* iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF62179FF56300244E13 /* iPhone4.png */; };
+		74E7FF65179FF57100244E13 /* iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF64179FF57100244E13 /* iPhone5.png */; };
+		74E7FF67179FF58E00244E13 /* romdata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 74E7FF66179FF58E00244E13 /* romdata.bin */; };
+		74E7FF6A179FF62F00244E13 /* imas.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF69179FF62F00244E13 /* imas.c */; };
+		74E7FF6C179FF63A00244E13 /* myio.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF6B179FF63A00244E13 /* myio.c */; };
+		74E7FF70179FF65200244E13 /* vge_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF6F179FF65200244E13 /* vge_i.c */; };
+		74E7FF73179FF66A00244E13 /* vgeapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF72179FF66A00244E13 /* vgeapi.c */; };
+		74E7FF77179FF69000244E13 /* vgs.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF76179FF69000244E13 /* vgs.c */; };
+		74E7FF7A179FF6AE00244E13 /* VGSScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF79179FF6AE00244E13 /* VGSScreenView.m */; };
+		74E7FF7D179FF6C500244E13 /* VGSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF7C179FF6C500244E13 /* VGSView.m */; };
+		74E7FF80179FF6DA00244E13 /* VGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF7F179FF6DA00244E13 /* VGSViewController.m */; };
+		74E7FF83179FF6FB00244E13 /* VGSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF82179FF6FB00244E13 /* VGSWindow.m */; };
+		74E7FF85179FF71E00244E13 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E7FF84179FF71E00244E13 /* game.c */; };
+		74E7FF87179FF93B00244E13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF86179FF93B00244E13 /* QuartzCore.framework */; };
+		74E7FF89179FF95000244E13 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF88179FF94F00244E13 /* OpenAL.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		74E7FF4B179FF45400244E13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74E7FF1E179FF45400244E13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74E7FF25179FF45400244E13;
-			remoteInfo = "Touhou VGS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		741D55DC17C0C6C600F22421 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		743E40E917E5417400632C10 /* icon_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_60.png; sourceTree = "<group>"; };
+		743E40EB17E5418400632C10 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		745255C51C79DF4E00007F0F /* vgs2tone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgs2tone.c; path = "../../../../programs/vgs-bgm-decoder/src/vgs2tone.c"; sourceTree = "<group>"; };
+		745255C61C79DF4E00007F0F /* vgsdec_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec_internal.h; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec_internal.h"; sourceTree = "<group>"; };
+		745255C71C79DF4E00007F0F /* vgsdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgsdec.c; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec.c"; sourceTree = "<group>"; };
+		745255C81C79DF4E00007F0F /* vgsdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec.h; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec.h"; sourceTree = "<group>"; };
+		745255C91C79DF4E00007F0F /* vgstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgstone.h; path = "../../../../programs/vgs-bgm-decoder/src/vgstone.h"; sourceTree = "<group>"; };
+		745E24FE18371F4600B713EF /* VGSBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSBarView.m; sourceTree = "<group>"; };
+		745E250018371F5200B713EF /* VGSBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGSBarView.h; sourceTree = "<group>"; };
+		749D250517C231C100DE1425 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74E0C2CD17A48CB50008EED2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		74E7FF26179FF45400244E13 /* Touhou VGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touhou VGS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E7FF29179FF45400244E13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74E7FF2B179FF45400244E13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,12 +69,35 @@
 		74E7FF3B179FF45400244E13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		74E7FF3D179FF45400244E13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		74E7FF3F179FF45400244E13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touhou VGSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74E7FF47179FF45400244E13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		74E7FF4F179FF45400244E13 /* Touhou VGSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touhou VGSTests-Info.plist"; sourceTree = "<group>"; };
 		74E7FF51179FF45400244E13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74E7FF53179FF45400244E13 /* Touhou_VGSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touhou_VGSTests.h; sourceTree = "<group>"; };
 		74E7FF54179FF45400244E13 /* Touhou_VGSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touhou_VGSTests.m; sourceTree = "<group>"; };
+		74E7FF5E179FF47400244E13 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		74E7FF60179FF4F500244E13 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		74E7FF62179FF56300244E13 /* iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4.png; sourceTree = "<group>"; };
+		74E7FF64179FF57100244E13 /* iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5.png; sourceTree = "<group>"; };
+		74E7FF66179FF58E00244E13 /* romdata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = romdata.bin; sourceTree = "<group>"; };
+		74E7FF69179FF62F00244E13 /* imas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imas.c; sourceTree = "<group>"; };
+		74E7FF6B179FF63A00244E13 /* myio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myio.c; sourceTree = "<group>"; };
+		74E7FF6F179FF65200244E13 /* vge_i.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vge_i.c; sourceTree = "<group>"; };
+		74E7FF71179FF65F00244E13 /* vge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vge.h; sourceTree = "<group>"; };
+		74E7FF72179FF66A00244E13 /* vgeapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vgeapi.c; sourceTree = "<group>"; };
+		74E7FF74179FF67400244E13 /* vgeapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vgeapi.h; sourceTree = "<group>"; };
+		74E7FF75179FF67F00244E13 /* vgeint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vgeint.h; sourceTree = "<group>"; };
+		74E7FF76179FF69000244E13 /* vgs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vgs.c; sourceTree = "<group>"; };
+		74E7FF78179FF6A000244E13 /* VGSScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGSScreenView.h; sourceTree = "<group>"; };
+		74E7FF79179FF6AE00244E13 /* VGSScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSScreenView.m; sourceTree = "<group>"; };
+		74E7FF7B179FF6BC00244E13 /* VGSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGSView.h; sourceTree = "<group>"; };
+		74E7FF7C179FF6C500244E13 /* VGSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSView.m; sourceTree = "<group>"; };
+		74E7FF7E179FF6D000244E13 /* VGSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGSViewController.h; sourceTree = "<group>"; };
+		74E7FF7F179FF6DA00244E13 /* VGSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSViewController.m; sourceTree = "<group>"; };
+		74E7FF81179FF6EB00244E13 /* VGSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGSWindow.h; sourceTree = "<group>"; };
+		74E7FF82179FF6FB00244E13 /* VGSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSWindow.m; sourceTree = "<group>"; };
+		74E7FF84179FF71E00244E13 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
+		74E7FF86179FF93B00244E13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74E7FF88179FF94F00244E13 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		74E9A3391A18757300EFE3D0 /* miniz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miniz.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,28 +105,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749D250617C231C100DE1425 /* AudioToolbox.framework in Frameworks */,
+				741D55DD17C0C6C600F22421 /* AVFoundation.framework in Frameworks */,
+				74E7FF89179FF95000244E13 /* OpenAL.framework in Frameworks */,
+				74E7FF87179FF93B00244E13 /* QuartzCore.framework in Frameworks */,
 				74E7FF2A179FF45400244E13 /* UIKit.framework in Frameworks */,
 				74E7FF2C179FF45400244E13 /* Foundation.framework in Frameworks */,
 				74E7FF2E179FF45400244E13 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74E7FF42179FF45400244E13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74E7FF48179FF45400244E13 /* SenTestingKit.framework in Frameworks */,
-				74E7FF49179FF45400244E13 /* UIKit.framework in Frameworks */,
-				74E7FF4A179FF45400244E13 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		745255C41C79DF1F00007F0F /* vgs-bgm-decoder */ = {
+			isa = PBXGroup;
+			children = (
+				745255C51C79DF4E00007F0F /* vgs2tone.c */,
+				745255C61C79DF4E00007F0F /* vgsdec_internal.h */,
+				745255C71C79DF4E00007F0F /* vgsdec.c */,
+				745255C81C79DF4E00007F0F /* vgsdec.h */,
+				745255C91C79DF4E00007F0F /* vgstone.h */,
+			);
+			name = "vgs-bgm-decoder";
+			sourceTree = "<group>";
+		};
 		74E7FF1D179FF45400244E13 = {
 			isa = PBXGroup;
 			children = (
+				749D250517C231C100DE1425 /* AudioToolbox.framework */,
+				741D55DC17C0C6C600F22421 /* AVFoundation.framework */,
+				74E7FF88179FF94F00244E13 /* OpenAL.framework */,
+				74E7FF86179FF93B00244E13 /* QuartzCore.framework */,
+				74E7FF60179FF4F500244E13 /* icon_114.png */,
+				74E7FF5E179FF47400244E13 /* icon_57.png */,
+				743E40EB17E5418400632C10 /* icon_120.png */,
+				743E40E917E5417400632C10 /* icon_60.png */,
+				74E0C2CD17A48CB50008EED2 /* Icon.png */,
 				74E7FF2F179FF45400244E13 /* Touhou VGS */,
 				74E7FF4D179FF45400244E13 /* Touhou VGSTests */,
 				74E7FF28179FF45400244E13 /* Frameworks */,
@@ -93,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				74E7FF26179FF45400244E13 /* Touhou VGS.app */,
-				74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +163,6 @@
 				74E7FF29179FF45400244E13 /* UIKit.framework */,
 				74E7FF2B179FF45400244E13 /* Foundation.framework */,
 				74E7FF2D179FF45400244E13 /* CoreGraphics.framework */,
-				74E7FF47179FF45400244E13 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +170,23 @@
 		74E7FF2F179FF45400244E13 /* Touhou VGS */ = {
 			isa = PBXGroup;
 			children = (
+				745255C41C79DF1F00007F0F /* vgs-bgm-decoder */,
+				74E7FF68179FF60F00244E13 /* C */,
+				74E7FF62179FF56300244E13 /* iPhone4.png */,
+				74E7FF64179FF57100244E13 /* iPhone5.png */,
+				74E7FF66179FF58E00244E13 /* romdata.bin */,
 				74E7FF38179FF45400244E13 /* VGSAppDelegate.h */,
 				74E7FF39179FF45400244E13 /* VGSAppDelegate.m */,
+				74E7FF79179FF6AE00244E13 /* VGSScreenView.m */,
+				74E7FF78179FF6A000244E13 /* VGSScreenView.h */,
+				74E7FF7B179FF6BC00244E13 /* VGSView.h */,
+				74E7FF7C179FF6C500244E13 /* VGSView.m */,
+				745E24FE18371F4600B713EF /* VGSBarView.m */,
+				745E250018371F5200B713EF /* VGSBarView.h */,
+				74E7FF7E179FF6D000244E13 /* VGSViewController.h */,
+				74E7FF7F179FF6DA00244E13 /* VGSViewController.m */,
+				74E7FF81179FF6EB00244E13 /* VGSWindow.h */,
+				74E7FF82179FF6FB00244E13 /* VGSWindow.m */,
 				74E7FF30179FF45400244E13 /* Supporting Files */,
 			);
 			path = "Touhou VGS";
@@ -152,6 +225,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		74E7FF68179FF60F00244E13 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				74E9A3391A18757300EFE3D0 /* miniz.h */,
+				74E7FF84179FF71E00244E13 /* game.c */,
+				74E7FF76179FF69000244E13 /* vgs.c */,
+				74E7FF75179FF67F00244E13 /* vgeint.h */,
+				74E7FF74179FF67400244E13 /* vgeapi.h */,
+				74E7FF72179FF66A00244E13 /* vgeapi.c */,
+				74E7FF71179FF65F00244E13 /* vge.h */,
+				74E7FF6F179FF65200244E13 /* vge_i.c */,
+				74E7FF6B179FF63A00244E13 /* myio.c */,
+				74E7FF69179FF62F00244E13 /* imas.c */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,25 +262,6 @@
 			productReference = 74E7FF26179FF45400244E13 /* Touhou VGS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74E7FF45179FF45400244E13 /* Touhou VGSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74E7FF5B179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGSTests" */;
-			buildPhases = (
-				74E7FF41179FF45400244E13 /* Sources */,
-				74E7FF42179FF45400244E13 /* Frameworks */,
-				74E7FF43179FF45400244E13 /* Resources */,
-				74E7FF44179FF45400244E13 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74E7FF4C179FF45400244E13 /* PBXTargetDependency */,
-			);
-			name = "Touhou VGSTests";
-			productName = "Touhou VGSTests";
-			productReference = 74E7FF46179FF45400244E13 /* Touhou VGSTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,7 +269,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = VGS;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "SUZUKI PLAN";
 			};
 			buildConfigurationList = 74E7FF21179FF45400244E13 /* Build configuration list for PBXProject "Touhou VGS" */;
@@ -214,7 +286,6 @@
 			projectRoot = "";
 			targets = (
 				74E7FF25179FF45400244E13 /* Touhou VGS */,
-				74E7FF45179FF45400244E13 /* Touhou VGSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,62 +299,43 @@
 				74E7FF3C179FF45400244E13 /* Default.png in Resources */,
 				74E7FF3E179FF45400244E13 /* Default@2x.png in Resources */,
 				74E7FF40179FF45400244E13 /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74E7FF43179FF45400244E13 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74E7FF52179FF45400244E13 /* InfoPlist.strings in Resources */,
+				74E7FF5F179FF47400244E13 /* icon_57.png in Resources */,
+				74E7FF61179FF4F500244E13 /* icon_114.png in Resources */,
+				74E7FF63179FF56300244E13 /* iPhone4.png in Resources */,
+				74E7FF65179FF57100244E13 /* iPhone5.png in Resources */,
+				74E7FF67179FF58E00244E13 /* romdata.bin in Resources */,
+				74E0C2CE17A48CB50008EED2 /* Icon.png in Resources */,
+				743E40EA17E5417400632C10 /* icon_60.png in Resources */,
+				743E40EC17E5418400632C10 /* icon_120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		74E7FF44179FF45400244E13 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74E7FF22179FF45400244E13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745255CA1C79DF4E00007F0F /* vgs2tone.c in Sources */,
 				74E7FF36179FF45400244E13 /* main.m in Sources */,
 				74E7FF3A179FF45400244E13 /* VGSAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74E7FF41179FF45400244E13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74E7FF55179FF45400244E13 /* Touhou_VGSTests.m in Sources */,
+				74E7FF6A179FF62F00244E13 /* imas.c in Sources */,
+				74E7FF6C179FF63A00244E13 /* myio.c in Sources */,
+				745255CB1C79DF4E00007F0F /* vgsdec.c in Sources */,
+				74E7FF70179FF65200244E13 /* vge_i.c in Sources */,
+				74E7FF73179FF66A00244E13 /* vgeapi.c in Sources */,
+				745E24FF18371F4600B713EF /* VGSBarView.m in Sources */,
+				74E7FF77179FF69000244E13 /* vgs.c in Sources */,
+				74E7FF7A179FF6AE00244E13 /* VGSScreenView.m in Sources */,
+				74E7FF7D179FF6C500244E13 /* VGSView.m in Sources */,
+				74E7FF80179FF6DA00244E13 /* VGSViewController.m in Sources */,
+				74E7FF83179FF6FB00244E13 /* VGSWindow.m in Sources */,
+				74E7FF85179FF71E00244E13 /* game.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		74E7FF4C179FF45400244E13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74E7FF25179FF45400244E13 /* Touhou VGS */;
-			targetProxy = 74E7FF4B179FF45400244E13 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		74E7FF32179FF45400244E13 /* InfoPlist.strings */ = {
@@ -312,27 +364,44 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 			};
 			name = Debug;
 		};
@@ -343,31 +412,55 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 			};
 			name = Release;
 		};
 		74E7FF59179FF45400244E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
 				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiplan.Touhou-VGS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,45 +468,17 @@
 		74E7FF5A179FF45400244E13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
 				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiplan.Touhou-VGS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		74E7FF5C179FF45400244E13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Touhou VGS.app/Touhou VGS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
-				INFOPLIST_FILE = "Touhou VGSTests/Touhou VGSTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		74E7FF5D179FF45400244E13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Touhou VGS.app/Touhou VGS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
-				INFOPLIST_FILE = "Touhou VGSTests/Touhou VGSTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -436,14 +501,7 @@
 				74E7FF5A179FF45400244E13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		74E7FF5B179FF45400244E13 /* Build configuration list for PBXNativeTarget "Touhou VGSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74E7FF5C179FF45400244E13 /* Debug */,
-				74E7FF5D179FF45400244E13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
