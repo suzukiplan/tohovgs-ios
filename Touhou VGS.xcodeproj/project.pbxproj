@@ -10,9 +10,9 @@
 		741D55DD17C0C6C600F22421 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741D55DC17C0C6C600F22421 /* AVFoundation.framework */; };
 		743E40EA17E5417400632C10 /* icon_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 743E40E917E5417400632C10 /* icon_60.png */; };
 		743E40EC17E5418400632C10 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 743E40EB17E5418400632C10 /* icon_120.png */; };
-		745255CA1C79DF4E00007F0F /* vgs2tone.c in Sources */ = {isa = PBXBuildFile; fileRef = 745255C51C79DF4E00007F0F /* vgs2tone.c */; };
-		745255CB1C79DF4E00007F0F /* vgsdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 745255C71C79DF4E00007F0F /* vgsdec.c */; };
 		745E24FF18371F4600B713EF /* VGSBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E24FE18371F4600B713EF /* VGSBarView.m */; };
+		749AAFC4201443B2002009E4 /* vgs2tone.c in Sources */ = {isa = PBXBuildFile; fileRef = 749AAFBF201443B2002009E4 /* vgs2tone.c */; };
+		749AAFC5201443B2002009E4 /* vgsdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 749AAFC0201443B2002009E4 /* vgsdec.c */; };
 		749D250617C231C100DE1425 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749D250517C231C100DE1425 /* AudioToolbox.framework */; };
 		74E0C2CE17A48CB50008EED2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E0C2CD17A48CB50008EED2 /* Icon.png */; };
 		74E7FF2A179FF45400244E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E7FF29179FF45400244E13 /* UIKit.framework */; };
@@ -47,13 +47,13 @@
 		741D55DC17C0C6C600F22421 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		743E40E917E5417400632C10 /* icon_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_60.png; sourceTree = "<group>"; };
 		743E40EB17E5418400632C10 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
-		745255C51C79DF4E00007F0F /* vgs2tone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgs2tone.c; path = "../../../../programs/vgs-bgm-decoder/src/vgs2tone.c"; sourceTree = "<group>"; };
-		745255C61C79DF4E00007F0F /* vgsdec_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec_internal.h; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec_internal.h"; sourceTree = "<group>"; };
-		745255C71C79DF4E00007F0F /* vgsdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgsdec.c; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec.c"; sourceTree = "<group>"; };
-		745255C81C79DF4E00007F0F /* vgsdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec.h; path = "../../../../programs/vgs-bgm-decoder/src/vgsdec.h"; sourceTree = "<group>"; };
-		745255C91C79DF4E00007F0F /* vgstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgstone.h; path = "../../../../programs/vgs-bgm-decoder/src/vgstone.h"; sourceTree = "<group>"; };
 		745E24FE18371F4600B713EF /* VGSBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSBarView.m; sourceTree = "<group>"; };
 		745E250018371F5200B713EF /* VGSBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGSBarView.h; sourceTree = "<group>"; };
+		749AAFBF201443B2002009E4 /* vgs2tone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgs2tone.c; path = "vgs-bgm-decoder/src/vgs2tone.c"; sourceTree = SOURCE_ROOT; };
+		749AAFC0201443B2002009E4 /* vgsdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vgsdec.c; path = "vgs-bgm-decoder/src/vgsdec.c"; sourceTree = SOURCE_ROOT; };
+		749AAFC1201443B2002009E4 /* vgstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgstone.h; path = "vgs-bgm-decoder/src/vgstone.h"; sourceTree = SOURCE_ROOT; };
+		749AAFC2201443B2002009E4 /* vgsdec_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec_internal.h; path = "vgs-bgm-decoder/src/vgsdec_internal.h"; sourceTree = SOURCE_ROOT; };
+		749AAFC3201443B2002009E4 /* vgsdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vgsdec.h; path = "vgs-bgm-decoder/src/vgsdec.h"; sourceTree = SOURCE_ROOT; };
 		749D250517C231C100DE1425 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		74E0C2CD17A48CB50008EED2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		74E7FF26179FF45400244E13 /* Touhou VGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touhou VGS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,11 +121,11 @@
 		745255C41C79DF1F00007F0F /* vgs-bgm-decoder */ = {
 			isa = PBXGroup;
 			children = (
-				745255C51C79DF4E00007F0F /* vgs2tone.c */,
-				745255C61C79DF4E00007F0F /* vgsdec_internal.h */,
-				745255C71C79DF4E00007F0F /* vgsdec.c */,
-				745255C81C79DF4E00007F0F /* vgsdec.h */,
-				745255C91C79DF4E00007F0F /* vgstone.h */,
+				749AAFBF201443B2002009E4 /* vgs2tone.c */,
+				749AAFC2201443B2002009E4 /* vgsdec_internal.h */,
+				749AAFC0201443B2002009E4 /* vgsdec.c */,
+				749AAFC3201443B2002009E4 /* vgsdec.h */,
+				749AAFC1201443B2002009E4 /* vgstone.h */,
 			);
 			name = "vgs-bgm-decoder";
 			sourceTree = "<group>";
@@ -317,12 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745255CA1C79DF4E00007F0F /* vgs2tone.c in Sources */,
 				74E7FF36179FF45400244E13 /* main.m in Sources */,
 				74E7FF3A179FF45400244E13 /* VGSAppDelegate.m in Sources */,
 				74E7FF6A179FF62F00244E13 /* imas.c in Sources */,
 				74E7FF6C179FF63A00244E13 /* myio.c in Sources */,
-				745255CB1C79DF4E00007F0F /* vgsdec.c in Sources */,
 				74E7FF70179FF65200244E13 /* vge_i.c in Sources */,
 				74E7FF73179FF66A00244E13 /* vgeapi.c in Sources */,
 				745E24FF18371F4600B713EF /* VGSBarView.m in Sources */,
@@ -330,7 +328,9 @@
 				74E7FF7A179FF6AE00244E13 /* VGSScreenView.m in Sources */,
 				74E7FF7D179FF6C500244E13 /* VGSView.m in Sources */,
 				74E7FF80179FF6DA00244E13 /* VGSViewController.m in Sources */,
+				749AAFC4201443B2002009E4 /* vgs2tone.c in Sources */,
 				74E7FF83179FF6FB00244E13 /* VGSWindow.m in Sources */,
+				749AAFC5201443B2002009E4 /* vgsdec.c in Sources */,
 				74E7FF85179FF71E00244E13 /* game.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

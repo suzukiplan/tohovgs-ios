@@ -1,0 +1,3 @@
+[submodule "vgs-bgm-decoder"]
+	path = vgs-bgm-decoder
+	url = https://github.com/suzukiplan/vgs-bgm-decoder
