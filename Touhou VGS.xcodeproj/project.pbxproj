@@ -272,6 +272,11 @@
 				LastTestingUpgradeCheck = 0700;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "SUZUKI PLAN";
+				TargetAttributes = {
+					74E7FF25179FF45400244E13 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 74E7FF21179FF45400244E13 /* Build configuration list for PBXProject "Touhou VGS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -453,13 +458,15 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
 				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiplan.Touhou-VGS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Touhou-VGS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,13 +477,15 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Touhou VGS/Touhou VGS-Prefix.pch";
 				INFOPLIST_FILE = "Touhou VGS/Touhou VGS-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiplan.Touhou-VGS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Touhou-VGS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
