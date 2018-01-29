@@ -1,2 +1,5 @@
 *.ipa
 .DS_Store
+*/xcuserdata
+*/*/xcuserdata
+
