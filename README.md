@@ -11,4 +11,11 @@ git submodule init
 git submodule update
 open Touhou\ VGS.xcodeproj
 ```
-> XCODEが起動するので, インストール先にデバイスまたはシミュレータを指定してビルドすれば起動できます
+
+Terminalで上記手順を実行するとXCODEが起動します。
+インストール先にデバイスまたはシミュレータを指定してビルドすれば起動できます。
+
+> エラーが出て起動できない場合, XCODEにAppleアカウントが選択されていない可能性があります。
+> プロジェクトのTARGETS ＞ General ＞ Signing から使用可能なAppleアカウントを追加して選択してください。
+> ![xcode.png](xcode.png)
+
